@@ -10,6 +10,7 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { FaGithub, FaGoogle } from "react-icons/fa";
 
 export default function RenderFunction() {
   const onSubmit = async(e) => {
@@ -165,7 +166,7 @@ export default function RenderFunction() {
           bg-transparent px-2 text-xs font-medium text-[#26352C]
           hover:bg-[#F1F6F1]"
           >
-            <span className="mr-1.5 font-bold text-[#4285F4]">G</span>
+            <span className=" font-bold text-black"> <FaGoogle/> </span>
             Google দিয়ে চালিয়ে যান
           </Button>
 
@@ -176,7 +177,7 @@ export default function RenderFunction() {
           bg-transparent px-2 text-xs font-medium text-[#26352C]
           hover:bg-[#F1F6F1]"
           >
-            <span className="mr-1.5">●</span>
+            <span className="mr-1.5"> <FaGithub/> </span>
             GitHub দিয়ে চালিয়ে যান
           </Button>
         </div>
